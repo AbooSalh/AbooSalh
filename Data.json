@@ -1,0 +1,271 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Ahmed Saleh",
+        "email": "me@abosaleh.site",
+        "phone": "+20 115 164 4301",
+        "url": "https://abosaleh.site",
+        "location": {
+            "city": "Sharm El Sheikh",
+            "countryCode": "EG"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "ahmed-saleh-swe",
+                "url": "https://www.linkedin.com/in/ahmed-saleh-swe/"
+            },
+            {
+                "network": "GitHub",
+                "username": "AbooSalh",
+                "url": "https://github.com/AbooSalh"
+            },
+            {
+                "network": "LeetCode",
+                "username": "Unix69",
+                "url": "https://leetcode.com/u/Unix69/"
+            }
+        ]
+    },
+    "summary": {
+        "base": "Software engineer focused on production-ready web systems with TypeScript across the stack, clean architecture, reliable APIs, and pragmatic delivery.",
+        "backend": "Backend and full-stack developer building maintainable APIs, data-driven systems, and deployment-friendly services with TypeScript, Node.js, and .NET.",
+        "frontend": "Frontend-oriented full-stack developer building responsive interfaces and portfolio-grade web experiences with React, Next.js, and TypeScript.",
+        "dotnet": "Aspiring .NET and backend engineer with a TypeScript foundation, learning C# and ASP.NET while building practical web systems and APIs."
+    },
+    "work": [
+        {
+            "name": "Paradise Sharm Tours",
+            "location": "Sharm El Sheikh, Egypt",
+            "position": "Freelance Full-Stack Developer",
+            "startDate": "2025-01",
+            "endDate": "Present",
+            "highlights": [
+                "Built and deployed a full-stack tour platform for a local business, supporting 11 listed tours and approximately 115 weekly active users worldwide.",
+                "Automated deployment with Docker Compose and Bash scripts, converting release operations into a one-command flow with validation checks.",
+                "Resolved Docker volume persistence issues for uploaded images and stabilized redeployments to prevent data loss."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Alamein International University (AIU)",
+            "location": "Alexandria, Egypt",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science (B.Sc.)",
+            "endDate": "2027-05",
+            "courses": [
+                "Data Structures and Algorithms",
+                "System Design and Analysis",
+                "Advanced Database Systems",
+                "Information Security"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages",
+            "keywords": [
+                "TypeScript",
+                "C#",
+                "JavaScript",
+                "Java",
+                "HTML",
+                "CSS",
+                "SQL"
+            ]
+        },
+        {
+            "name": "Backend & APIs",
+            "keywords": [
+                "Node.js",
+                "Express.js",
+                "REST APIs",
+                "authentication/authorization",
+                "input validation",
+                "error handling",
+                ".NET",
+                "ASP.NET"
+            ]
+        },
+        {
+            "name": "Frontend",
+            "keywords": [
+                "React",
+                "Next.js",
+                "SSR/SSG",
+                "responsive design",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "MariaDB",
+                "MySQL",
+                "MongoDB",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "name": "DevOps & Tools",
+            "keywords": [
+                "Docker",
+                "Docker Compose",
+                "Git",
+                "Linux",
+                "GitHub",
+                "Bash"
+            ]
+        },
+        {
+            "name": "Testing & Quality",
+            "keywords": [
+                "Jest",
+                "Supertest",
+                "Postman",
+                "k6",
+                "linting",
+                "formatting"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Express TypeScript Template",
+            "url": "https://github.com/AbooSalh/express-ts-template",
+            "keywords": [
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "REST APIs"
+            ],
+            "highlights": [
+                "Opinionated starter for robust API services with structured modules, environment config, request validation, and error normalization."
+            ]
+        },
+        {
+            "name": "Fekra DB",
+            "url": "https://github.com/AbooSalh/fekra-db",
+            "keywords": [
+                "TypeScript",
+                "SQL",
+                "MySQL"
+            ],
+            "highlights": [
+                "Designed a relational schema across 6 core entities and normalized tables through 3NF and BCNF to reduce redundancy.",
+                "Implemented indexed SQL query patterns for filtering and reporting workflows, improving consistency of data retrieval across modules."
+            ]
+        },
+        {
+            "name": "AIU Trips & Events Management System",
+            "url": "https://github.com/AIU-SoftWave/AIU-Trips-And-Events",
+            "keywords": [
+                "Java",
+                "TypeScript",
+                "PostgreSQL"
+            ],
+            "highlights": [
+                "Built a university web platform to manage trips and events workflows including auth, booking, QR validation, notifications, feedback, and admin reporting.",
+                "Contributed across requirements, design, implementation, and testing in a polyglot codebase using TypeScript and Java."
+            ]
+        },
+        {
+            "name": "E-commerce API",
+            "url": "https://github.com/AbooSalh/ecommerce-api-expressjs",
+            "keywords": [
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "PostgreSQL"
+            ],
+            "highlights": [
+                "Built 4 core backend modules (products, users, orders, carts) with REST endpoints and reusable middleware architecture.",
+                "Implemented request validation and centralized error handling across all modules to improve API reliability and maintainability."
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Competitive Programming",
+            "awarder": "LeetCode",
+            "summary": "Profile: https://leetcode.com/u/Unix69/"
+        }
+    ],
+    "community": [
+        {
+            "name": "AIU ICPC Community",
+            "role": "Technical Volunteer",
+            "location": "Alamein International University (AIU)",
+            "highlights": [
+                "Supporting competitive programming practice, algorithm discussion, and technical peer help for students."
+            ]
+        }
+    ],
+    "meta": {
+        "canonical": "https://abosaleh.site"
+    },
+    "sources": {
+        "github": {
+            "username": "AbooSalh",
+            "profileUrl": "https://github.com/AbooSalh",
+            "reposApi": "https://api.github.com/users/AbooSalh/repos?per_page=100&sort=updated"
+        },
+        "portfolio": {
+            "url": "https://abosaleh.site"
+        }
+    },
+    "tailoring": {
+        "backend": {
+            "title": "Backend / Full-Stack Developer",
+            "summaryKey": "backend",
+            "projectOrder": [
+                "Express TypeScript Template",
+                "E-commerce API",
+                "Fekra DB",
+                "AIU Trips & Events Management System"
+            ],
+            "skillFocus": [
+                "Languages",
+                "Backend & APIs",
+                "Databases",
+                "DevOps & Tools",
+                "Testing & Quality"
+            ]
+        },
+        "frontend": {
+            "title": "Frontend / Full-Stack Developer",
+            "summaryKey": "frontend",
+            "projectOrder": [
+                "Express TypeScript Template",
+                "E-commerce API",
+                "Paradise Sharm Tours",
+                "AIU Trips & Events Management System"
+            ],
+            "skillFocus": [
+                "Languages",
+                "Frontend",
+                "Backend & APIs",
+                "DevOps & Tools",
+                "Testing & Quality"
+            ]
+        },
+        "dotnet": {
+            "title": ".NET / Backend Developer",
+            "summaryKey": "dotnet",
+            "projectOrder": [
+                "AIU Trips & Events Management System",
+                "Express TypeScript Template",
+                "E-commerce API",
+                "Fekra DB"
+            ],
+            "skillFocus": [
+                "Languages",
+                "Backend & APIs",
+                "Databases",
+                "DevOps & Tools",
+                "Testing & Quality"
+            ]
+        }
+    }
+}
