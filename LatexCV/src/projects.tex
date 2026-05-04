@@ -1,31 +1,19 @@
 %-----------PROJECTS-----------%
 \section{Projects}
 \resumeSubHeadingListStart
+
 \resumeProjectHeading
-  {\textbf{Express TypeScript Template} $|$ \emph{TypeScript, Node.js, Express, REST APIs}} {\href{https://github.com/AbooSalh/express-ts-template}{\underline{GitHub}}}
+  {\textbf{Cairo Transportation Network} $|$ \emph{C\#, .NET, Next.js, SQLite, EF Core}}{\href{https://gcts.abosaleh.site}{\underline{Live Demo}}}
   \resumeItemListStart
-    \resumeItem{Opinionated starter for robust API services with structured modules, environment config, request validation, and error normalization}
+    \resumeItem{Engineered a smart-city routing platform processing 35 locations and 74 roads across Greater Cairo using A* emergency routing (39\% faster than Dijkstra, 40\% fewer node expansions) and 0/1 Knapsack DP for maintenance budget optimization (42\% improvement over greedy, serving 78.5\% transit demand with 50 vehicles)}
+    \resumeItem{Built a modular monolith ASP.NET Core REST API with IMemoryCache (\textless 1ms graph retrieval), Next.js interactive Leaflet map, and automated CI/CD via GitHub Actions, achieving \textless 2ms average algorithm response time}
   \resumeItemListEnd
 
 \resumeProjectHeading
-  {\textbf{Fekra DB} $|$ \emph{TypeScript, SQL, MySQL}} {\href{https://github.com/AbooSalh/fekra-db}{\underline{GitHub}}}
+  {\textbf{E-commerce API} $|$ \emph{TypeScript, Node.js, Express, MongoDB, Stripe}}{\href{https://github.com/AbooSalh/ecommerce-api-expressjs}{\underline{GitHub}}}
   \resumeItemListStart
-    \resumeItem{Designed a relational schema across 6 core entities and normalized tables through 3NF and BCNF to reduce redundancy}
-    \resumeItem{Implemented indexed SQL query patterns for filtering and reporting workflows, improving consistency of data retrieval across modules}
-  \resumeItemListEnd
-
-\resumeProjectHeading
-  {\textbf{AIU Trips \& Events Management System} $|$ \emph{Java, TypeScript, PostgreSQL}}{\href{https://github.com/AIU-SoftWave/AIU-Trips-And-Events}{\underline{GitHub}}}
-  \resumeItemListStart
-    \resumeItem{Built a university web platform to manage trips and events workflows including auth, booking, QR validation, notifications, feedback, and admin reporting}
-    \resumeItem{Contributed across requirements, design, implementation, and testing in a polyglot codebase using TypeScript and Java}
-  \resumeItemListEnd
-
-\resumeProjectHeading
-  {\textbf{E-commerce API} $|$ \emph{TypeScript, Node.js, Express, PostgreSQL}} {\href{https://github.com/AbooSalh/ecommerce-api-expressjs}{\underline{GitHub}}}
-  \resumeItemListStart
-    \resumeItem{Built 4 core backend modules (products, users, orders, carts) with REST endpoints and reusable middleware architecture}
-    \resumeItem{Implemented request validation and centralized error handling across all modules to improve API reliability and maintainability}
+    \resumeItem{Built a production-ready ecommerce REST API with 8+ modules (products, orders, cart, reviews, coupons) featuring Stripe payment integration with webhook handling and email verification flows}
+    \resumeItem{Implemented BaseController pattern for DRY CRUD operations, JWT authentication with MFA-protected account deletion, and hardened security (Helmet, NoSQL injection protection, HPP, rate limiting, input sanitization)}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
