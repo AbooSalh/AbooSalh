@@ -130,11 +130,6 @@ Modular codebases, separation of concerns, SOLID principles, environment-based c
 
 - Designing and developing a **Codeforces-style online training platform** for AIU ICPC community with problem archives, live contests, real-time rankings, and user profiles
 
-### Competitive Programming
-**LeetCode** — [Profile](https://leetcode.com/u/Unix69/)
-
-- Active problem solver with focus on algorithms and data structures
-
 ---
 
 ## How I Work
@@ -184,11 +179,9 @@ Modular codebases, separation of concerns, SOLID principles, environment-based c
 
 ## Contact
 
-- **Phone**: +20 115 164 4301
 - **Email**: me@abosaleh.site
 - **LinkedIn**: [ahmed-saleh-swe](https://linkedin.com/in/ahmed-saleh-swe/)
 - **GitHub**: [AbooSalh](https://github.com/AbooSalh)
-- **LeetCode**: [Unix69](https://leetcode.com/u/Unix69/)
 - **Portfolio**: [abosaleh.site](https://abosaleh.site)
 
 If you're hiring for backend, full-stack, or .NET roles and value production-ready systems with clean architecture and comprehensive testing, I'd love to connect.

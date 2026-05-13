@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "title": ".NET Junior & Internship Opportunities in Egypt — April 2026",
+    "description": "Comprehensive research of .NET job market for fresh graduates in Egypt. Structured programs, active job listings, and government-funded training tracks.",
+    "last_updated": "2026-04-21",
+    "research_by": "Web search across Wuzzuf, LinkedIn, GulfTalent, FounditGulf, Egyincs, MCIT, company career pages"
+  },
+  "market_summary": {
+    "total_estimated_listings": "~2,900 'Junior Net Developer' on Wuzzuf; ~12 explicit junior .NET on GulfTalent; ~10+ structured fresh grad programs",
+    "verdict": ".NET has FEWER total listings than Node.js but offers MORE structured fresh grad programs with clear pipelines, less competition per opening, and strong enterprise/banking presence.",
+    "nodejs_comparison": "Node.js has more junior listings (~3,700) but higher competition ('oversupply' per LinkedIn 2024 report). .NET junior programs often require only OOP fundamentals + willingness to learn.",
+    "best_bet": "Structured programs (IBM, FlairsTech, AAIB, Valeo, talabatYouth) and government training (ITI ICC, DEPI, Digilians) are the easiest entry points — they target fresh grads explicitly.",
+    "strategy": "Apply to IBM and AAIB now (both open). Enroll in ITI ICC or DEPI .NET track for structured training. Use .NET profile to target enterprise/banking; keep Node.js profile for remote/startup roles."
+  },
+  "fresh_grad_programs": [
+    {
+      "company": "IBM Egypt",
+      "role": "Application Developer - Microsoft .NET Internship",
+      "type": "Internship (hybrid)",
+      "location": "Giza, Egypt",
+      "status": "OPEN — 345 days remaining to apply",
+      "posted_date": "2026-02-25",
+      "url": "https://egyincs.com/opportunities/ibm-egypt-application-developer-microsoft-net-internship/",
+      "requirements": [
+        "Strong full-stack skills (.Net, C#, Angular)",
+        "Frontend: HTML, CSS, JavaScript, Angular/React.js",
+        "Backend: C#, .Net",
+        "Databases: SQL, NoSQL",
+        "Strong Git knowledge",
+        "Bachelor's degree in CS, Engineering or related"
+      ],
+      "notes": "IBM Consulting division. Fortune 500. Hybrid work. Portfolio with C#/.NET + Angular/React projects strongly recommended.",
+      "application_link": "https://egyincs.com/opportunities/ibm-egypt-application-developer-microsoft-net-internship/"
+    },
+    {
+      "company": "FlairsTech",
+      "role": "Junior .Net Developer - Fresh Graduate Program",
+      "type": "3-month paid internship → Full-time",
+      "location": "Maadi, Cairo",
+      "status": "OPEN (previously 3 positions, 216 applicants)",
+      "posted_date": "Recurring program",
+      "url": "https://wuzzuf.net/jobs/p/f155Ch7hfs5C-Junior-Net-Developer---Fresh-Graduate-Program-Flairstech-Cairo-Egypt",
+      "requirements": [
+        ".NET development with C#: ASP.NET, Web Services, REST APIs",
+        "MVC, WCF, SQL, C#, Agile",
+        "jQuery, JavaScript, HTML5, CSS",
+        "Client/server development",
+        "TFS (Team Foundation Server)",
+        "Preference for ITI graduates"
+      ],
+      "notes": "FlairsTech has 1000+ employees. Structured program for fresh grads. Past applicants: 216 for 3 positions.",
+      "application_link": "https://wuzzuf.net/jobs/p/f155Ch7hfs5C-Junior-Net-Developer---Fresh-Graduate-Program-Flairstech-Cairo-Egypt"
+    },
+    {
+      "company": "Arab African International Bank (AAIB)",
+      "role": "Fresh Graduate - Technology",
+      "type": "Full-time",
+      "location": "Cairo, Egypt",
+      "status": "OPEN — posted 8 days ago (as of Apr 2026)",
+      "posted_date": "2026-04-10",
+      "url": "https://www.founditgulf.com/job/fresh-graduate-technology-arab-african-international-bank-egypt-49673227",
+      "requirements": [
+        "Recent graduates up to 2 years experience",
+        "CS, Engineering, BIS, AI, Data Science or related",
+        "Problem-solving, analytical skills",
+        "Teamwork"
+      ],
+      "notes": "Bank does NOT specify a tech stack upfront — after joining, you're placed where skills fit (backend, frontend, DBA, security, data science). FinTech exposure at one of Egypt's largest banks.",
+      "application_link": "https://www.founditgulf.com/job/fresh-graduate-technology-arab-african-international-bank-egypt-49673227"
+    },
+    {
+      "company": "Valeo Egypt",
+      "role": "Graduate In Training Program (GIT) — Full Stack Developer",
+      "type": "6-month internship → potential renewal",
+      "location": "Cairo, Egypt (on-site)",
+      "status": "OPEN — 359 days remaining to apply",
+      "posted_date": "2026-03-11",
+      "url": "https://egyincs.com/opportunities/valeo-egypt-graduate-in-training-program-git-full-stack-developer/",
+      "requirements": [
+        "Must be a 2025 graduate",
+        "BSc in CS, Computer Engineering, Communication, Mechatronics, or Electronics",
+        "Solid Python + REST API understanding",
+        "Familiarity with Python frameworks (FastAPI, Flask, Django)",
+        "Frontend: HTML, CSS, JavaScript/TypeScript",
+        "Testing: PyTest/PyUnit",
+        "AI interest (TensorFlow/PyTorch, LangChain/LlamaIndex) is a plus",
+        "Excellent English + Arabic; French is a plus"
+      ],
+      "notes": "Valeo is a global automotive tech company. GIT program focuses on AI framework development. Note: this track is Python-based (not .NET), but Valeo has multiple GIT tracks. .NET skills could apply to their IS/IT tracks.",
+      "application_link": "https://egyincs.com/opportunities/valeo-egypt-graduate-in-training-program-git-full-stack-developer/"
+    },
+    {
+      "company": "Delivery Hero / talabat (Egypt)",
+      "role": "talabatYouth — Tech Graduate Internship",
+      "type": "6-month internship → potential full-time 2026",
+      "location": "Cairo, Egypt",
+      "status": "OPEN",
+      "posted_date": "Active posting",
+      "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000060728566-talabatyouth-tech-graduate-internship-cairo",
+      "requirements": [
+        "Bachelor's in CS or related (or currently enrolled)",
+        "Graduation year: 2024 or 2025",
+        "GPA 3.5 or above",
+        "Extracurricular activities required",
+        "Backend development using .NET, Golang, or C#",
+        "RESTful APIs, microservices, automated testing",
+        "Cloud exposure (AWS, GCP, Azure)"
+      ],
+      "notes": "Delivery Hero runs talabat in MENA region. High GPA requirement (3.5+). Structured mentorship and real backend challenges on distributed systems.",
+      "application_link": "https://jobs.smartrecruiters.com/DeliveryHero/744000060728566-talabatyouth-tech-graduate-internship-cairo"
+    },
+    {
+      "company": "Accenture",
+      "role": "Fresh Graduates — Junior .NET Developers",
+      "type": "Full-time",
+      "location": "Ebene (Mauritius) — remote from Egypt may vary",
+      "status": "OPEN",
+      "posted_date": "Active posting",
+      "url": "https://www.accenture.com/mu-en/careers/jobdetails?id=R00325078_en",
+      "requirements": [
+        "BSc in CS, Software Engineering or related",
+        "OOP, data structures, algorithms",
+        ".NET & C# familiarity",
+        "SQL (SQL Server, PostgreSQL, MySQL)",
+        "Git",
+        "Nice-to-have: ASP.NET Core, HTML, CSS, JS, React/Angular, Azure/AWS"
+      ],
+      "notes": "Accenture also has Junior .NET Developer role in Athens/Thessaloniki (Greece) — could be an option if willing to relocate. Job code R00279659.",
+      "application_link": "https://www.accenture.com/mu-en/careers/jobdetails?id=R00325078_en"
+    },
+    {
+      "company": "Orange Egypt",
+      "role": "Junior .Net Software Engineer",
+      "type": "Full-time",
+      "location": "Giza, Egypt (Smart Village)",
+      "status": "OPEN (0-2 years experience)",
+      "posted_date": "Active posting",
+      "url": "https://www.careers-page.com/orange-eg/job/L3R545XW",
+      "requirements": [
+        "BSc in CS, Engineering or relevant",
+        "0-2 years experience",
+        ".NET, C, C++, C#",
+        "Web API, SQL/PLSQL",
+        "OOP",
+        "OS (Linux, Windows)",
+        "Bonus: Angular, SharePoint, DB analysis"
+      ],
+      "notes": "Large telecom employer. On-site at Smart Village. Entry-level friendly.",
+      "application_link": "https://www.careers-page.com/orange-eg/job/L3R545XW"
+    },
+    {
+      "company": "ITE Corp",
+      "role": "Fresh Graduates Readiness Program (FGRP)",
+      "type": "5-month training program → internship",
+      "location": "Cairo/Egypt",
+      "status": "Recurring program (10th round completed, next TBA)",
+      "posted_date": "Recurring — last ran 2025",
+      "url": "https://itecorp.net/fg.html",
+      "requirements": [
+        "Fresh graduates",
+        "IT or CS background",
+        "Commitment to 5-month program"
+      ],
+      "notes": "Running for 15 years. Microsoft Gold Partner. Graduates go into .NET consulting and implementation roles. Check for next cohort announcement.",
+      "application_link": "https://itecorp.net/fg.html"
+    },
+    {
+      "company": "CFO Advisory and Accountancy (Qatar-based)",
+      "role": "Junior Full-Stack .NET Developer — Remote Internship (3 Months)",
+      "type": "3-month remote internship → full-time offer",
+      "location": "Remote from Egypt (team in Qatar)",
+      "status": "Was open — may re-open",
+      "posted_date": "Dec 2025 (closed)",
+      "url": "https://jaabz.com/jobs/136693-junior-full-stack-net-developer-a-remote-internship-3-months",
+      "requirements": [
+        "Fresh graduate in CS, SE, or IS",
+        "C# OOP understanding",
+        ".NET platform basics",
+        "SQL databases",
+        "Interest in full-stack + cloud",
+        "Preference for those with .NET GitHub projects"
+      ],
+      "notes": "Remote opportunity. Clear path: internship → full-time. ASP.NET Core, EF Core, SQL Server, Azure. If this re-opens, it's a golden remote opportunity.",
+      "application_link": "https://jaabz.com/jobs/136693-junior-full-stack-net-developer-a-remote-internship-3-months"
+    }
+  ],
+  "active_junior_jobs": [
+    {
+      "company": "Confidential Company (Mohandessin, Giza)",
+      "role": "Junior .Net Developer (Backend/Integration)",
+      "type": "Full-time",
+      "location": "Mohandessin, Giza",
+      "status": "OPEN — posted 1 day ago",
+      "posted_date": "2026-04-20",
+      "url": "https://wuzzuf.net/jobs/p/f0vpethre2gk-junior-net-developer-backendintegration-giza-egypt",
+      "requirements": [
+        "BSc in CS or related",
+        "1+ year .NET experience",
+        "C#, .NET basics",
+        "SQL Server (SELECT, JOIN)",
+        "OOP understanding",
+        "Web APIs familiarity"
+      ],
+      "notes": "Integration-focused role with SSRS, Crystal Reports. Clean Architecture. Good entry point."
+    },
+    {
+      "company": "Egyptian Banks Company (EBC)",
+      "role": "Junior Software Developer (.NET)",
+      "type": "Full-time",
+      "location": "New Cairo, Cairo",
+      "status": "OPEN (2+ years experience preferred)",
+      "posted_date": "Active posting",
+      "url": "https://www.egyptianbanks.com/careers/",
+      "requirements": [
+        "BSc in CS, CIS or related",
+        "2+ years experience",
+        ".NET, C#",
+        "SQL Server",
+        "ASP.NET, Windows applications",
+        "ITI diploma preferred",
+        "CMMI standards knowledge"
+      ],
+      "notes": "EBC powers Egypt's banking infrastructure. Enterprise .NET shop. Good for after 1-2 years experience."
+    },
+    {
+      "company": "WSC",
+      "role": "Junior .Net Developer",
+      "type": "Full-time (hybrid)",
+      "location": "Cairo, Egypt",
+      "status": "OPEN (0-1 year experience — internships count as experience)",
+      "posted_date": "~Nov 2025",
+      "url": "https://wuzzuf.net/jobs/p/1dfhfofcnpwp-junior-net-developer-wsc-cairo-egypt",
+      "requirements": [
+        "BSc in CS, Engineering or related",
+        "0-1 year .NET development (internship/projects accepted)",
+        "Good understanding of one .NET language (C# preferred)",
+        "Web-based application development",
+        "Databases and APIs familiarity",
+        "EF Core, .NET Core",
+        "Microservices/DDD/CQRS exposure is a plus",
+        "Angular 10+ is a plus"
+      ],
+      "notes": "Most accessible junior role — explicitly accepts internships and projects as experience. Hybrid work model."
+    },
+    {
+      "company": "Swatx",
+      "role": "Junior .NET Software Developer",
+      "type": "Contract/Temporary (remote)",
+      "location": "Egypt (remote)",
+      "status": "Was open (Feb 2025)",
+      "posted_date": "Feb 2025",
+      "url": "https://www.remoterocketship.com/company/swatxsolutions/jobs/junior-net-software-developer-egypt",
+      "requirements": [
+        "No degree required",
+        "1-2.5 years .NET experience",
+        "C#, .NET Framework, ASP.NET",
+        "HTML, CSS, XML, JavaScript",
+        "Angular, jQuery",
+        "SQL Server or Oracle",
+        "OOP concepts"
+      ],
+      "notes": "No-degree-required remote role. Rare find. Check if they're hiring again."
+    }
+  ],
+  "government_training_programs": [
+    {
+      "program": "ITI Intensive Code Camp (ICC)",
+      "provider": "Information Technology Institute (ITI) — Ministry of Communications",
+      "track": "Full-Stack Web & Generative AI Development using .NET",
+      "duration": "~5 months (630 hours)",
+      "format": "Blended (20% self-paced, 40% online, 40% guided practices)",
+      "status": "Recurring — next cohort TBA (previous: Jan-May 2026)",
+      "url": "https://mcit.gov.eg/en/Human_Capacity/ITI/Intensive_Code_Camp",
+      "details_url": "https://rgateway.iti.gov.eg/Resources/Resources/GetResourceFile?PublicId=d47f7a3b-1066-4e49-99b3-7b6b0502c78f",
+      "requirements": [
+        "University graduates (last 10 years)",
+        "CS/Engineering graduates preferred",
+        "Free prerequisite courses via MaharaTech",
+        "Pass ITI admission exam"
+      ],
+      "curriculum": [
+        "OOP using C#",
+        "HTML5, CSS3, Bootstrap",
+        "Visual C# .NET, LINQ, EF Core",
+        "SQL Server",
+        "ASP.NET MVC Core, Web API",
+        "Angular, TypeScript",
+        "Generative AI & prompt engineering",
+        "CI/CD, secure coding, Agile"
+      ],
+      "locations": [
+        "Smart Village", "Cairo University", "Alexandria", "Mansoura",
+        "Assiut", "Aswan", "Port Said", "Ismailia", "Sohag",
+        "Beni Suef", "Minya", "Qena", "Fayoum", "Tanta",
+        "Zagazig", "Banha", "Monofeya", "New Capital", "Damanhour"
+      ],
+      "outcome": "Microsoft Certified Solutions Developer (MCSD) eligible. Job placements at Vodafone, Orange, Valeo, Wuzzuf, Etisalat, IBM, etc.",
+      "notes": "FREE program. Best .NET training in Egypt. High employment rate. Multiple locations across Egypt."
+    },
+    {
+      "program": "DEPI — Digital Egypt Pioneers Initiative",
+      "provider": "Ministry of Communications and Information Technology (MCIT)",
+      "track": "Full Stack .NET Web Developer (among 31 job profiles)",
+      "duration": "6 months",
+      "format": "Online + practical sessions at local training centers",
+      "status": "Round 3 accepting applications (check depi.gov.eg)",
+      "url": "https://depi.gov.eg/",
+      "details_url": "https://mcit.gov.eg/en/Human_Capacity/MCIT/Digital_Egypt_Pioneers_Initiative",
+      "requirements": [
+        "Egyptian citizen resident in Egypt",
+        "University students or graduates",
+        "English proficiency (Level 4 minimum)",
+        "Military status resolved (for males)"
+      ],
+      "tracks_available": [
+        "Full Stack .NET Web Developer",
+        "React Frontend Web Developer",
+        "Angular Frontend Web Developer",
+        "DevOps Engineer",
+        "Android Mobile App Developer",
+        "Cross Platform Mobile App Developer",
+        "Software Tester"
+      ],
+      "notes": "FREE program. Includes soft skills, freelancing, and English training. Round 3 currently accepting. Apply via depi.gov.eg."
+    },
+    {
+      "program": "Digilians Initiative",
+      "provider": "MCIT + Egyptian Military Academy",
+      "track": "Software Development — .NET (among others)",
+      "duration": "4 months (Intensive Diploma) / 9 months (Specialized) / 12 months (Professional Master)",
+      "format": "Full-time residency at Egyptian Military Academy",
+      "status": "Cohort 2 — Registration open until mid-May 2026",
+      "url": "https://mcit.gov.eg/en/Human_Capacity/MCIT/Digilians_Initiative",
+      "details_url": "https://egyptinnovate.com/en/news/registration-opens-for-the-second-cohort-of-the-digilians-presidential-initiative",
+      "requirements": [
+        "Egyptian, aged 18-32",
+        "University graduates or final-year students",
+        "CS, Engineering, AI, Science (CS), or Commerce (BIS)",
+        "Full commitment to military academy residency",
+        "Pass IQ, English, technical exams + medical & sports tests"
+      ],
+      "benefits": [
+        "Fully-funded scholarship",
+        "Free accommodation at Military Academy",
+        "Certificates from MCIT + Military Academy",
+        "International certifications",
+        "Job market connections"
+      ],
+      "notes": "Most intensive option. Full-time residency required — cannot work simultaneously. But fully-funded with accommodation. Registration for 2nd cohort closing mid-May 2026."
+    }
+  ],
+  "aggregate_platforms": {
+    "wuzzuf": {
+      "url": "https://wuzzuf.net/a/Junior-Net-Developer-Jobs-in-Egypt",
+      "estimated_count": "~2,900 'Junior Net Developer' listings",
+      "note": "Many are mid/senior mislabeled. Best to filter by '0-1 years' or 'Fresh Graduate'."
+    },
+    "gulftalent": {
+      "url": "https://www.gulftalent.com/egypt/jobs/title/junior-dotnet-developer",
+      "estimated_count": "~12 explicit junior .NET listings (Apr 2026)",
+      "companies": ["Astro Sirens LLC", "SWATX", "Vodafone Qatar", "Orange Egypt", "SSC HR Solutions", "Arpu Telecom", "Egyptian Banks Company"]
+    },
+    "naukrigulf": {
+      "url": "https://www.naukrigulf.com/full-stack-dot-net-developer-jobs-in-egypt",
+      "estimated_count": "~1,553 full stack .NET listings (Mar 2026) — mostly mid-senior"
+    },
+    "linkedin": {
+      "note": "AAIB posted fresh grad role via LinkedIn. Many .NET jobs appear on LinkedIn. Search 'Fresh Graduate .NET Egypt'."
+    }
+  },
+  "salary_reference": {
+    ".NET entry_level": "~EGP 64,854/yr (PayScale, based on 5 profiles)",
+    ".NET mid_career": "~EGP 803,000/yr median (earlier research)",
+    "Node.js entry_level": "~EGP 15,000-25,000/month = 180,000-300,000/yr",
+    "Node.js mid_career": "~EGP 595,000/yr median (earlier research)",
+    "general_junior_range": "EGP 15,000-25,000/month (tcrutr.com, 2025)",
+    "note": ".NET entry salary is lower but grows faster (~35% higher at mid-career). Enterprise benefits (insurance, bonuses) often better at banks and large corporations."
+  },
+  "priority_recommendations": [
+    {
+      "rank": 1,
+      "action": "Apply to IBM Egypt .NET Internship",
+      "why": "IBM is a Fortune 500. Hybrid work. Still open. Requires .NET + Angular/React portfolio. Start building a .NET project on GitHub NOW if you don't have one.",
+      "link": "https://egyincs.com/opportunities/ibm-egypt-application-developer-microsoft-net-internship/"
+    },
+    {
+      "rank": 2,
+      "action": "Apply to AAIB Fresh Graduate - Technology",
+      "why": "Posted 8 days ago. Doesn't require specific .NET experience — just CS/Engineering degree + willingness. Entry into banking sector.",
+      "link": "https://www.founditgulf.com/job/fresh-graduate-technology-arab-african-international-bank-egypt-49673227"
+    },
+    {
+      "rank": 3,
+      "action": "Enroll in ITI ICC .NET track",
+      "why": "FREE. 5 months. Best .NET training in Egypt. Covers everything from C# to GenAI. Multiple locations. High placement rate.",
+      "link": "https://mcit.gov.eg/en/Human_Capacity/ITI/Intensive_Code_Camp"
+    },
+    {
+      "rank": 4,
+      "action": "Register for DEPI Round 3 — Full Stack .NET",
+      "why": "FREE. 6 months. Includes soft skills + freelancing. Apply via depi.gov.eg.",
+      "link": "https://depi.gov.eg/"
+    },
+    {
+      "rank": 5,
+      "action": "Apply to talabatYouth Tech Internship",
+      "why": "6-month program → full-time. .NET/Golang/C#. GPA 3.5+ requirement. Strong mentorship.",
+      "link": "https://jobs.smartrecruiters.com/DeliveryHero/744000060728566-talabatyouth-tech-graduate-internship-cairo"
+    },
+    {
+      "rank": 6,
+      "action": "Apply to Orange Egypt Junior .NET Engineer",
+      "why": "0-2 years accepted. Telecom. Smart Village location.",
+      "link": "https://www.careers-page.com/orange-eg/job/L3R545XW"
+    },
+    {
+      "rank": 7,
+      "action": "Check FlairsTech Fresh Grad Program re-opening",
+      "why": "Structured 3-month paid internship → full-time. They hire periodically.",
+      "link": "https://wuzzuf.net/jobs/p/f155Ch7hfs5C-Junior-Net-Developer---Fresh-Graduate-Program-Flairstech-Cairo-Egypt"
+    }
+  ]
+}

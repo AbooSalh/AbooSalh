@@ -1,0 +1,79 @@
+%-------------------------
+% Resume in LaTeX — Custom (copy this for a specific job posting)
+%
+% Instructions:
+%   1. Save a copy: cp profiles/resume-custom.tex profiles/resume-myjob.tex
+%   2. Edit the \input paths below to pick the right profile content
+%   3. Edit any section content directly
+%   4. Build: make myjob (or: latexmk -pdf profiles/resume-myjob.tex)
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage[default]{lato}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.2in}
+\setlength{\footskip}{4.08003pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\input{../custom-commands}
+
+\hypersetup{
+  pdftitle={Ahmed Saleh - <Job Title>},
+  pdfsubject={<Job Title> Resume}
+}
+
+\begin{document}
+
+\input{../src/heading}
+
+% --- Edit the summary to match the job description ---
+\input{../src/fullstack/summary}         % <- change to backend/, frontend/, etc.
+
+\input{../src/education}
+
+\input{../src/fullstack/experience}       % <- change to match your profile
+
+\input{../src/fullstack/projects}         % <- change to match your profile
+
+\input{../src/fullstack/skills}           % <- change to match your profile
+
+\input{../src/certifications}
+
+\input{../src/fullstack/community}
+
+\input{../src/fullstack/achievements}
+
+\end{document}
