@@ -705,6 +705,77 @@ def build_tailored_resume(result, data, output_dir):
     pdf_path = compile_pdf(tailored_tex_path, output_dir=OUTPUT_DIR)
     return pdf_path, result.get("cover_letter", {}).get("body_paragraphs", [])
 
+# ---------- README generation ----------
+
+README_PATH = os.path.normpath(os.path.join(HERE, "..", "README.md"))
+
+def generate_readme(data):
+    """Generate GitHub profile README.md from profile.yaml data."""
+    p = data["personal"]
+
+    # Pick the first experience with a fullstack variant for bullets
+    exp = None
+    for e in data.get("experience", []):
+        for v in e.get("variants", []):
+            if "fullstack" in v.get("profiles", []):
+                exp = {"company": e["company"], "role": v["role"],
+                       "start": e["start"], "end": e["end"],
+                       "url": e.get("url", ""),
+                       "bullets": v["bullets"][:3]}
+                break
+        if exp:
+            break
+
+    # Collect skills from the first profile
+    skills = []
+    for prof in data.get("profiles", []):
+        if prof["name"] == "fullstack":
+            for cat, items in prof.get("skills", {}).items():
+                skills.extend([s.strip() for s in items.split(",")])
+            break
+    skills_str = " · ".join(skills[:15])
+
+    # Build experience bullets
+    exp_lines = ""
+    if exp:
+        url_suffix = f" — [{exp['url'].replace('https://', '')}]({exp['url']})" if exp.get("url") else ""
+        exp_lines += f"**{exp['role']}** — {exp['company']} ({exp['start']} – {exp['end']}){url_suffix}\n"
+        for b in exp["bullets"]:
+            exp_lines += f"- {b}\n"
+
+    website_display = p["links"]["website"].replace("https://", "")
+
+    readme = f"""<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1500&color=10B981&center=true&vCenter=true&width=980&lines={p['name']}+%7C+Software+Engineer;TypeScript%2FNode.js%2C+React+%26+Next.js;Building+Scalable+Web+Systems;C%23+%26+.NET+Developer" alt="Typing SVG" />
+  <br/>
+  <a href="{p['links']['website']}"><img src="https://img.shields.io/badge/Website-{website_display}-10B981?logo=google-chrome&logoColor=white" alt="Website"/></a>
+  <br/>
+  <sub><i>Full-stack engineer shipping production systems with TypeScript, React, Node.js, and .NET</i></sub>
+</div>
+
+---
+
+## Experience
+
+{exp_lines}
+## Skills
+
+{skills_str}
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)]({p['links']['linkedin']})
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)]({p['links']['github']})
+[![Portfolio](https://img.shields.io/badge/Portfolio-10B981?logo=google-chrome&logoColor=white)]({p['links']['website']})
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:{p['email']})
+"""
+    with open(README_PATH, "w") as f:
+        f.write(readme)
+    info(f"Generated: {README_PATH}")
+
+def cmd_readme(data, companies):
+    generate_readme(data)
+
 # ---------- CLI ----------
 
 def cmd_list(data, companies):
@@ -796,6 +867,7 @@ def main():
               "Commands:\n"
               "  all                          Build all profile CVs\n"
               "  list                         List profiles and companies\n"
+              "  readme                       Generate GitHub profile README from profile.yaml\n"
               "  <profile>                    Build one profile (e.g. siemens)\n"
               "  cover COMPANY ROLE PROFILE   Generate cover letter\n"
               "  tailor --jd-file <file>      AI-tailor CV from job description"
@@ -824,6 +896,8 @@ def main():
 
     if cmd == "list":
         cmd_list(data, companies)
+    elif cmd == "readme":
+        cmd_readme(data, companies)
     elif cmd == "all":
         cmd_all(data, companies)
     elif cmd == "cover":

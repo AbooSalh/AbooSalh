@@ -10,6 +10,9 @@ all:
 list:
 	python3 build.py list
 
+readme:
+	python3 build.py readme
+
 clean:
 	rm -rf output
 	rm -f *.log *.aux *.fls *.fdb_latexmk *.out *.synctex.gz
