@@ -1,0 +1,195 @@
+# ============================================================
+# Ahmed Saleh — Canonical Profile Data
+# All skills, experience, projects, education in one place.
+# Each entry can be tagged with profiles it belongs to.
+# ============================================================
+
+personal:
+  name: Ahmed Saleh
+  phone: "+20 115 164 4301"
+  email: a.saleh.dev@gmail.com
+  links:
+    linkedin: https://linkedin.com/in/ahmed-saleh-swe/
+    github: https://github.com/AbooSalh
+    website: https://abosaleh.site
+
+education:
+  institution: "Alamein International University (AIU)"
+  location: "Alexandria, Egypt"
+  degree: "Bachelor of Science (B.Sc.), Computer Science"
+  grad_year: "May 2027"
+  gpa: "3.5/4.0"
+  show_gpa_profiles: [siemens]
+  coursework:
+    - "Data Structures and Algorithms"
+    - "System Design"
+    - "Advanced Database Systems"
+    - "Information Security"
+    - "Object-Oriented Programming"
+  activities:
+    siemens:
+      - role: "Technical Head"
+        org: "AIU ICPC Community | Alamein International University (AIU)"
+        description: "Designing a Codeforces-style online training platform with problem archives, live contests, real-time rankings, and user profiles"
+
+certifications:
+  - name: "Object-Oriented Programming Using Java"
+    issuer: "ITI (Information Technology Institute) — 24 training hours, project-based with HackerRank assessment (Jul-Aug 2025)"
+
+# ============================================================
+# Profile definitions
+# Each profile defines: label, pdf metadata, summary, skills
+# ============================================================
+profiles:
+  - name: fullstack
+    label: "Full-Stack Developer"
+    pdf_title: "Ahmed Saleh - Full-Stack Developer"
+    pdf_subject: "Full-Stack Developer Resume"
+    skills:
+      Languages: "TypeScript, C#, JavaScript, Java, Python, SQL, HTML, CSS"
+      Frontend: "Next.js, React, React Query, TailwindCSS, Framer Motion, Radix UI"
+      Backend: "Node.js, Express.js, .NET, ASP.NET, REST APIs"
+      Databases: "MongoDB, MariaDB, MySQL, PostgreSQL"
+      DevOps: "Docker, Docker Compose, Traefik, Cloudflare tunnel, Portainer, pnpm monorepo, Bash"
+      Monitoring: "Prometheus, Grafana, k6, Google Analytics, PostHog, Plerdy"
+      Quality: "Jest, Supertest, SonarQube, Husky, ESLint, Prettier"
+
+  - name: backend
+    label: "Backend Developer"
+    pdf_title: "Ahmed Saleh - Backend Developer"
+    pdf_subject: "Backend Developer Resume"
+    skills:
+      Languages: "TypeScript, C#, JavaScript, Java, Python, SQL, HTML, CSS"
+      Backend: "Node.js, Express.js, .NET, ASP.NET, REST APIs"
+      Databases: "MongoDB, MariaDB, MySQL, PostgreSQL"
+      DevOps: "Docker, Docker Compose, Traefik, Cloudflare tunnel, Portainer, pnpm monorepo, Bash"
+      Monitoring: "Prometheus, Grafana, k6, Google Analytics, PostHog, Plerdy"
+      Quality: "Jest, Supertest, SonarQube, Husky, ESLint, Prettier"
+
+  - name: frontend
+    label: "Frontend Developer"
+    pdf_title: "Ahmed Saleh - Frontend Developer"
+    pdf_subject: "Frontend Developer Resume"
+    skills:
+      Languages: "TypeScript, JavaScript, HTML, CSS, Python, SQL"
+      Frontend: "Next.js, React, React Query, TailwindCSS, Framer Motion, Radix UI"
+      DevOps: "Docker, Docker Compose, Git, Bash"
+      Quality: "Jest, ESLint, Prettier"
+
+  - name: dotnet
+    label: ".NET Developer"
+    pdf_title: "Ahmed Saleh - .NET Developer"
+    pdf_subject: ".NET Developer Resume"
+    skills:
+      Languages: "C#, TypeScript, JavaScript, Java, Python, SQL, HTML, CSS"
+      Backend: ".NET, ASP.NET Core, Entity Framework Core, REST APIs"
+      Databases: "SQLite, MariaDB, MySQL, PostgreSQL, MongoDB"
+      DevOps: "Docker, Docker Compose, GitHub Actions, Git, Bash"
+      Quality: "xUnit, SonarQube, Husky, ESLint, Prettier"
+
+  - name: nodejs
+    label: "Node.js Developer"
+    pdf_title: "Ahmed Saleh - Node.js Developer"
+    pdf_subject: "Node.js Developer Resume"
+    skills:
+      Languages: "TypeScript, JavaScript, Python, SQL, HTML, CSS"
+      Backend: "Node.js, Express.js, REST APIs, authentication/authorization, input validation, error handling"
+      Databases: "MongoDB, MariaDB, MySQL, PostgreSQL"
+      DevOps: "Docker, Docker Compose, Git, Linux, GitHub, Bash"
+      Testing: "Jest, Supertest, Postman, k6, linting, formatting"
+
+  - name: siemens
+    label: "Siemens SSP Intern"
+    pdf_title: "Ahmed Saleh - Siemens SSP Intern"
+    pdf_subject: "SW Development Intern Resume"
+    skills:
+      Languages: "C# (ASP.NET, EF Core), TypeScript, JavaScript, Java, Python, SQL, Bash/Shell"
+      OOP: "SOLID principles, design patterns, inheritance/polymorphism, encapsulation, clean architecture"
+      Scripting: "Python, Bash, Linux server administration, Docker, CI/CD pipelines, automated testing"
+      Tools: "Linux/Unix, Git, Docker, Prometheus, Grafana, GitHub Actions, VS Code"
+      AI: "GitHub Copilot, AI prompt engineering for test generation, code review, and debugging workflows"
+
+# ============================================================
+# Experience entries — each has per-profile variants
+# The title/role and bullet wording differ by profile
+# ============================================================
+experience:
+  - company: Paradise Sharm Tours
+    url: https://paradisesharm.com
+    display_url: paradisesharm.com
+    start: "Jan 2025"
+    end: "Present"
+    # If present, overrides company URL for display
+    variants:
+      - role: "Full-Stack Developer"
+        profiles: [fullstack, dotnet]
+        bullets:
+          - "Architected and deployed paradisesharm.com, a multi-language (EN/AR/RU/DE/IT) tour booking platform using Next.js, Express.js, MongoDB, and Traefik with automated SSL/TLS, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)"
+          - "Built observability stack with Prometheus, Grafana, and k6 stress testing (up to 220 concurrent VUs, 2-hour soak tests) enabling proactive performance regression detection before deployment"
+          - "Integrated Google Analytics, PostHog, and Plerdy across the platform, tracking behavioral funnels for 651 total users and surfacing conversion drop-off insights that informed two UX iterations"
+          - "Optimized frontend to achieve 91 Performance, 100 Accessibility, and 92 Best Practices Lighthouse scores with 0.9s FCP and 0 cumulative layout shift"
+          - "Hardened application security with RBAC, JWT refresh token rotation, and rate limiting; implemented automated daily MongoDB backups with 7-day retention policy"
+
+      - role: "Backend Developer"
+        profiles: [backend]
+        bullets:
+          - "Architected and deployed a multi-language tour booking platform using Express.js, MongoDB, and Traefik with automated SSL/TLS, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)"
+          - "Built observability stack with Prometheus, Grafana, and k6 stress testing (up to 220 concurrent VUs, 2-hour soak tests) for production monitoring and capacity planning"
+          - "Implemented RBAC with JWT refresh tokens, rate limiting, input validation, and automated daily MongoDB backups with 7-day retention to ensure data security and system reliability"
+
+      - role: "Frontend Developer"
+        profiles: [frontend]
+        bullets:
+          - "Built a multi-language (EN/AR/RU/DE/IT) tour booking interface with Next.js, React Query, TailwindCSS, and Framer Motion, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)"
+          - "Optimized frontend to achieve 91 Performance, 100 Accessibility, and 92 Best Practices Lighthouse scores with 0.9s FCP and 0 cumulative layout shift"
+          - "Integrated Google Analytics, PostHog, and Plerdy for user behavior tracking across 651 total users, driving data-informed UI/UX improvements"
+
+      - role: "Node.js Developer"
+        profiles: [nodejs]
+        bullets:
+          - "Architected and deployed a multi-language tour booking platform with Express.js, MongoDB, and Traefik reverse proxy with automated SSL/TLS, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)"
+          - "Built observability stack with Prometheus, Grafana, and k6 stress testing (up to 220 concurrent VUs, 2-hour soak tests) for production API monitoring and performance tuning"
+          - "Implemented RBAC with JWT refresh tokens, rate limiting, Helmet security headers, and automated daily MongoDB backups with 7-day retention"
+
+      - role: "Full-Stack Developer (Freelance)"
+        profiles: [siemens]
+        bullets:
+          - "Architected and deployed a multi-language tour booking platform using Next.js, Express.js, MongoDB, and Traefik reverse proxy with automated SSL/TLS, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)"
+          - "Built observability stack with Prometheus, Grafana, and k6 stress testing (up to 220 concurrent VUs, 2-hour soak tests); used AI-assisted tooling to automate test generation and performance analysis workflows"
+          - "Implemented RBAC with JWT refresh tokens, rate limiting, and automated daily MongoDB backups — demonstrating attention to security, reliability, and production-grade engineering"
+
+# ============================================================
+# Project entries — tagged by profile
+# ============================================================
+projects:
+  - name: "Cairo Transportation Network"
+    url: "https://gcts.abosaleh.site"
+    display_url: "Live Demo"
+    tech: "C#, .NET, Next.js, SQLite, EF Core"
+    profiles: [fullstack, dotnet, siemens]
+    bullets:
+      - "Engineered a smart-city routing platform processing 35 locations and 74 roads across Greater Cairo using A* emergency routing (39% faster than Dijkstra, 40% fewer node expansions) and 0/1 Knapsack DP for maintenance budget optimization (42% improvement over greedy, serving 78.5% transit demand with 50 vehicles)"
+      - "Built a modular monolith ASP.NET Core REST API with IMemoryCache (\\textless{} 1ms graph retrieval), Next.js interactive Leaflet map, and automated CI/CD via GitHub Actions, achieving \\textless{} 2ms average algorithm response time"
+
+  - name: "E-commerce API"
+    url: "https://github.com/AbooSalh/ecommerce-api-expressjs"
+    display_url: "GitHub"
+    tech: "TypeScript, Node.js, Express, MongoDB, Stripe"
+    profiles: [fullstack, backend, nodejs]
+    bullets:
+      - "Built a production-ready ecommerce REST API with 8+ modules (products, orders, cart, reviews, coupons) featuring Stripe payment integration with webhook handling and email verification flows"
+      - "Implemented BaseController pattern for DRY CRUD operations, JWT authentication with MFA-protected account deletion, and hardened security (Helmet, NoSQL injection protection, HPP, rate limiting, input sanitization)"
+
+# ============================================================
+# Leadership / Community entries
+# ============================================================
+leadership:
+  - role: "Technical Head"
+    organization: "AIU ICPC Community | Alamein International University (AIU)"
+    start: "Apr 2026"
+    end: "Present"
+    profiles: [fullstack, backend, frontend, dotnet, nodejs, siemens]
+    bullets:
+      - "Architecting and developing a full-stack competitive programming platform for a 600-member ICPC community using Next.js and Node.js, featuring problem archives, live contests with real-time leaderboards, and user rating profiles"
+
+

@@ -1,0 +1,60 @@
+# Target companies for cover letter generation
+# Each entry has the company details and optionally custom paragraph text.
+# The AI tailor can auto-generate cover letters from just company + role + JD.
+---
+- company: Siemens
+  role: "SSP - HAV R&D SW Development Intern (AI-Assisted Development)"
+  profile: siemens
+  location: "El Qahera El Gididaa, Egypt"
+  hiring_manager: "Hiring Manager"
+
+- company: "IBM Egypt"
+  role: "Application Developer - Microsoft .NET Internship"
+  profile: dotnet
+  location: "Giza, Egypt"
+
+- company: "Arab African International Bank (AAIB)"
+  role: "Fresh Graduate - Technology"
+  profile: dotnet
+  location: "Cairo, Egypt"
+
+- company: "FlairsTech"
+  role: "Junior .Net Developer - Fresh Graduate Program"
+  profile: dotnet
+  location: "Maadi, Cairo"
+
+- company: "Delivery Hero / talabat (Egypt)"
+  role: "talabatYouth — Tech Graduate Internship"
+  profile: dotnet
+  location: "Cairo, Egypt"
+
+- company: "Orange Egypt"
+  role: "Junior .Net Software Engineer"
+  profile: dotnet
+  location: "Giza, Egypt (Smart Village)"
+
+- company: "Valeo Egypt"
+  role: "Graduate In Training Program (GIT) — Full Stack Developer"
+  profile: dotnet
+  location: "Cairo, Egypt"
+
+- company: "Accenture"
+  role: "Fresh Graduates — Junior .NET Developers"
+  profile: dotnet
+  location: "Ebene, Mauritius"
+
+- company: "ITE Corp"
+  role: "Fresh Graduates Readiness Program (FGRP)"
+  profile: dotnet
+  location: "Cairo, Egypt"
+
+- company: "WSC"
+  role: "Junior .Net Developer"
+  profile: dotnet
+  location: "Cairo, Egypt"
+
+- company: "RockaiDev"
+  role: "Full Stack Development Intern"
+  profile: fullstack
+  location: "Alexandria, Egypt"
+  hiring_manager: "Hiring Manager"

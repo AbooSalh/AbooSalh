@@ -4,7 +4,7 @@
         "name": "Ahmed Saleh",
         "email": "me@abosaleh.site",
         "phone": "+20 115 164 4301",
-        "url": "https://abosaleh.site",
+        "url": "https://aboosaleh.site",
         "location": {
             "city": "Sharm El Sheikh",
             "countryCode": "EG"
@@ -13,7 +13,7 @@
             {
                 "network": "LinkedIn",
                 "username": "ahmed-saleh-swe",
-                "url": "https://www.linkedin.com/in/ahmed-saleh-swe/"
+                "url": "https://linkedin.com/in/ahmed-saleh-swe/"
             },
             {
                 "network": "GitHub",
@@ -203,7 +203,7 @@
         }
     ],
     "meta": {
-        "canonical": "https://abosaleh.site"
+        "canonical": "https://aboosaleh.site"
     },
     "sources": {
         "github": {
@@ -212,7 +212,7 @@
             "reposApi": "https://api.github.com/users/AbooSalh/repos?per_page=100&sort=updated"
         },
         "portfolio": {
-            "url": "https://abosaleh.site"
+            "url": "https://aboosaleh.site"
         }
     },
     "tailoring": {
