@@ -22,4 +22,4 @@ TypeScript · C# · .NET · Node.js · Express · React · Next.js · MongoDB ·
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-saleh-swe/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/AbooSalh)
 [![Portfolio](https://img.shields.io/badge/Portfolio-10B981?logo=google-chrome&logoColor=white)](https://abosaleh.site)
-[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:me@abosaleh.site)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:a.saleh.dev@gmail.com)
