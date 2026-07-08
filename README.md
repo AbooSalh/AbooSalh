@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1500&color=10B981&center=true&vCenter=true&width=980&lines=Ahmed Saleh+%7C+Software+Engineer;TypeScript%2FNode.js%2C+React+%26+Next.js;Building+Scalable+Web+Systems;C%23+%26+.NET+Developer" alt="Typing SVG" />
   <br/>
   <a href="https://abosaleh.site"><img src="https://img.shields.io/badge/Website-abosaleh.site-10B981?logo=google-chrome&logoColor=white" alt="Website"/></a>
   <br/>
